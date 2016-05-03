@@ -1,0 +1,289 @@
+.framer1 {
+	width: 99%;
+	padding: 0 0 0 1%;
+	min-height: 100%;
+}
+.name-avatarz h5 {
+	text-align: center;
+	letter-spacing: .05rem;
+	font-size: 130%;
+	color: #333;
+	font-family: "Roboto Slab";
+	margin:0;
+	padding: 0;
+}
+.lvl-avatarz p {
+	text-align: center;
+	color: #04b99b;
+}
+.img-avatarz {
+	text-align: center;
+}
+.img-avatarz img {
+	width: 80px;
+	border-radius: 80px;
+}
+.avatarz {
+	margin: 3rem 0 0 0;
+}
+.avmenu {
+	width: 100%;
+	box-shadow: 0 0 1px #666;
+	margin: 1rem 0 0;
+	border-radius: 0.5rem;
+	float: left;
+}
+.avmenulist {
+	box-shadow: 1px 0 0 #ddd;
+}
+.avmenulist, .avmenulists {
+	cursor: pointer;
+	padding: 1.5rem 0 1rem 0;
+	width: 33.3334%;
+	float: left;
+	text-align: center;
+	color: #343f49;
+	transition: all 0.3s ease-out;
+}
+.avmenulist:hover , .avmenulists:hover {
+	color: #04b99b;
+}
+.avmenulist-icon {}
+.avmenulist-desc {
+	font-size: 80%;
+}
+.signout {
+	width: 100%;
+	margin: 1rem 0 0;
+	float: left;
+}
+.mainmenu {
+	width: 100%;
+	margin: 2rem 0 0;
+	float: left;
+}
+.mainmenu h5 {
+	text-align: center;
+	font-size: 80%;
+	color: #333;
+	letter-spacing: .2rem;
+	font-family: "Roboto Slab";
+	margin: 0 0 0.8rem 0;
+	padding: 0 0 0.3rem 0;
+	border-bottom: 1px solid #ddd;
+}
+.mainmenu-list {
+	width: 100%;
+	margin: 0.5rem 0 0;
+	float: left;
+}
+.plpages {
+	width: 98%;
+	padding: 0 2% 0 0;
+}
+.title-pages {
+	margin: 0 0 1rem;
+}
+.title-pages h4 {
+	font-family: "Roboto Slab";
+	letter-spacing: .1rem;
+	color: #333;
+	padding: 2rem 0 0rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+.db-poin {
+	width: 100%;
+	text-align: center;
+	border-radius: 0.5rem;
+	padding: 3rem 0 2rem;
+	box-shadow: 0 0 1px #000;
+}
+.db-poin p {
+	margin:0;
+	padding:0;
+	color: #555;
+}
+.db-poin-score p {
+	font-size: 250%;
+	font-weight: bold;
+	letter-spacing: .2rem;
+}
+.db-poin-desc p {
+	font-size: 110%;
+	letter-spacing: .2rem;
+}
+.db-poin-report a {
+	border: 0;
+	color: #fff;
+	background-color: #333; 
+	margin: 2rem 10% 0;
+	width: 80%;
+	transition: all 0.3s ease-out;
+}
+.db-poin-report a:hover {
+	color: #fff;
+	background-color: #04b99b;
+}
+.db-poin-report a:focus {
+	color: #fff;
+}
+.chartos {
+	margin: 4rem 0 0;
+}
+.chartos h5 {
+	text-align: left;
+	font-size: 85%;
+	letter-spacing: .15rem;
+	font-weight: bold;
+	transition: all 0.3s ease-out;
+}
+.artiklez {
+	margin: 4rem 0 0;
+}
+.artiklez h4 {
+	font-family: "Roboto Slab";
+	font-size: 180%;
+	margin:0;
+	padding: 0 0 0.5rem;
+}
+.artiklez img {
+	width: 100%;
+}
+.artiklez p {
+	margin: 0;
+	padding: 0.5rem 0 1.5rem;
+	text-align: justify;
+}
+.artiklez-date p {
+	color: rgba(0,0,0,.75);
+	font-size: 85%;
+	letter-spacing: .1rem;
+}
+.tozka {
+	color: #04b99b;
+}
+.artiklez a {
+	text-decoration: none;
+	color: #333;
+	transition: all 0.3s ease-out;
+}
+.artiklez a:hover {
+	color: #04b99b;
+}
+
+/* ========================== BREADCRUMBS ========================== */
+
+.breadcrumbs-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.breadcrumbs-list {
+	font-size: 85%;
+	background: #fff;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 2rem;
+}
+.breadcrumbs-list li {
+	float: left;
+	margin:0;
+}
+.breadcrumbs-list a {
+	padding: 0 1em 0 2em;
+	float: left;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+}
+.breadcrumbs-list li:first-child a {
+	padding-left: 1em;
+	border-radius: 5px 0 0 5px;
+}
+.breadcrumbs-list a:hover {
+	background: #fff;
+}
+.breadcrumbs-list a::after,
+.breadcrumbs-list a::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -1.5em;
+	border-top: 1.5em solid transparent;
+	border-bottom: 1.5em solid transparent;
+	border-left: 1em solid;
+	right: -1em;
+}
+.breadcrumbs-list a::after {
+	z-index: 2;
+	border-left-color: #fff;
+}
+.breadcrumbs-list a::before {
+	border-left-color: #cdcdcd;
+	right: -1.1em;
+	z-index: 1;
+}
+.breadcrumbs-list a:hover::after {
+	border-left-color: #fff;
+}
+.breadcrumbs-list .current,
+.breadcrumbs-list .current:hover {
+	color: #04b99b;
+	background: none;
+}
+.breadcrumbs-list .current::after,
+.breadcrumbs-list .current::before {
+	content: normal;
+}
+
+/* ========================== TOOLTIPS ========================== */
+
+.tooltip {
+	position: relative;
+	background: rgba(4,185,155,.15);
+	cursor: help;
+	display: inline‐block;
+	text-decoration: none;
+	color: #222;
+	outline: none;
+}
+.tooltip span {
+	color: #04b99b;
+	text-align: center;
+	visibility: hidden;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	z-index: 999;
+	width: 230px;
+	margin-left: -127px;
+	padding: 10px;
+	border: 2px solid #333;
+	opacity: .9;
+	background-color: #333;
+	border-radius: 4px;
+}
+.tooltip:hover {
+	border: 0; /* IE6 fix */
+}
+.tooltip:hover span {
+	visibility: visible;
+}
+.tooltip span:before,
+.tooltip span:after {
+	content: "";
+	position: absolute;
+	z-index: 1000;
+	bottom: -6px;
+	left: 50%;
+	margin-left: -8px;
+	border-top: 8px solid #333;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 0;
+}
+.tooltip span:before {
+	border-top-color: #333;
+	bottom: -8px;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>AD-Panel</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/adpanel.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/tooltips.js"></script>
+
+</head>
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+  		<div class="row">
+  			<div class="three columns framer1">
+  				<div class="twelve columns">
+  					<div class="avatarz">
+  						<div class="twelve columns">
+  							<div class="img-avatarz"><img src="images/avatars.jpg"/></div>
+  							<div class="name-avatarz"><h5>Andre Sarizal Putra</h5></div>
+  							<div class="lvl-avatarz"><p>Administrator</p></div>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="twelve columns">
+  					<div class="avmenu">
+  						<a href="#">
+  							<div class="avmenulist">
+  								<div class="avmenulist-icon"><i class="fa fa-bell fa-lg"></i></div>
+  								<div class="avmenulist-desc">Notification</div>
+  							</div>
+  						</a>
+  						<a href="#">
+	  						<div class="avmenulist">
+	  							<div class="avmenulist-icon"><i class="fa fa-user fa-lg"></i></div>
+	  							<div class="avmenulist-desc">Profiles</div>
+	  						</div>
+	  					</a>
+	  					<a href="#">
+	  						<div class="avmenulists">
+	  							<div class="avmenulist-icon"><i class="fa fa-envelope fa-lg"></i></div>
+	  							<div class="avmenulist-desc">Messages</div>
+	  						</div>
+	  					</a>
+  					</div>
+  					<div class="signout">
+  						<button class="u-full-width">sign out</button>
+  					</div>
+  				</div>
+  				<div class="twelve columns">
+  					<div class="mainmenu"><h5>MAINMENU</h5></div>
+  					<div class="mainmenu-list">
+  						<a href="#" class="button u-full-width">Dashboard</a>
+  						<a href="#" class="button u-full-width">Events</a>
+  						<a href="#" class="button u-full-width">Articles</a>
+  						<a href="#" class="button u-full-width">Maps</a>
+  					</div>
+  				</div>
+  				<div class="twelve columns">
+  					<div class="mainmenu"><h5>SETTING</h5></div>
+  					<div class="mainmenu-list">
+  						<a href="#" class="button u-full-width">web description</a>
+  						<a href="#" class="button u-full-width">templates</a>
+  						<a href="#" class="button u-full-width">web menu</a>
+  						<a href="#" class="button u-full-width">categories</a>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="nine columns">
+  				<div class="plpages">
+  					<div class="title-pages"><h4>Dashboard</h4></div>
+  					<div class="breadcrumbs-list">
+  						<ul>
+  							<li><a href="#"><i class="fa fa-home fa-lg"></i></a></li>
+  							<li><a href="#">Mainmenu</a></li>
+  							<li><a href="#" class="current">Dashboard</a></li>
+						</ul>
+  					</div>
+  					<div class="row">
+   						<div class="three columns">
+   							<div class="db-poin">
+   								<div class="db-poin-icon"><i class="fa fa-eye fa-5x"></i></div>
+   								<div class="db-poin-score"><p>3719</p></div>
+   								<div class="db-poin-desc"><p>Pageviews</p></div>
+   								<div class="db-poin-report"><a href="#" class="button">full report</a></div>
+   							</div>
+   						</div>
+   						<div class="three columns">
+   							<div class="db-poin">
+   								<div class="db-poin-icon"><i class="fa fa-thumbs-up fa-5x"></i></div>
+   								<div class="db-poin-score"><p>1922</p></div>
+   								<div class="db-poin-desc"><p>Pagelikes</p></div>
+   								<div class="db-poin-report"><a href="#" class="button">full report</a></div>
+   							</div>
+   						</div>
+   						<div class="three columns">
+   							<div class="db-poin">
+   								<div class="db-poin-icon"><i class="fa fa-download fa-5x"></i></div>
+   								<div class="db-poin-score"><p>1385</p></div>
+   								<div class="db-poin-desc"><p>Downloads</p></div>
+   								<div class="db-poin-report"><a href="#" class="button">full report</a></div>
+   							</div>
+   						</div>
+   						<div class="three columns">
+   							<div class="db-poin">
+   								<div class="db-poin-icon"><i class="fa fa-comments fa-5x"></i></div>
+   								<div class="db-poin-score"><p>781</p></div>
+   								<div class="db-poin-desc"><p>Comments</p></div>
+   								<div class="db-poin-report"><a href="#" class="button">full report</a></div>
+   							</div>
+   						</div>
+  					</div>
+  					<div class="row">
+  						<div class="six columns">
+  							<div class="chartos"><h5>Pageview Graphic per Month</h5><canvas id="canvas"></canvas></div>
+  						</div>
+  						<div class="six columns">
+  							<div class="chartos"><h5>Best Performance</h5><canvas id="canvas2"></canvas></div>
+  						</div>
+					</div>
+					<div class="row">
+						<div class="six columns">
+	  						<div class="artiklez">
+	  							<a href="#"><h4>Themes and styles also help keep your document coordinated</h4></a>
+	  							<div class="artiklez-date"><p>Posted by <span class="tozka">Andre Sarizal Putra</span> on June 15, 2015</p></div>
+	  							<img src="images/img-article.jpg"/>
+	  							<p>Video provides a powerful way to help you prove your point. When you click Online <a href="#" class="tooltip">video<span>Video provides a powerful way to help you prove your point</span></a>, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document...</p>
+	  						</div>
+  						</div>
+  						<div class="six columns">
+	  						<div class="artiklez">
+	  							<a href="#"><h4>Themes and styles also help keep your document coordinated</h4></a>
+	  							<div class="artiklez-date"><p>Posted by <span class="tozka">Andre Sarizal Putra</span> on October 21, 2015</p></div>
+	  							<img src="images/img-article.jpg"/>
+	  							<p>Video provides a powerful way to help you prove your point. When you click Online <a href="#" class="tooltip">video<span>Video provides a powerful way to help you prove your point</span></a>, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document...</p>
+	  						</div>
+  						</div>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="twelve columns">
+  			</div>
+  		</div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script>
+		var lineChartData = {
+			labels : ["January","February","March","April","May","June","July","August","September","October","November","December"],
+			datasets : [
+				{
+					label: "My First dataset",
+					fillColor : "rgba(220,220,220,0.2)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(220,220,220,1)",
+					data: [65,59,90,81,56,55,40,88,75,55,68,93]
+				},
+				{
+					label: "My Second dataset",
+					fillColor : "rgba(20,200,170,0.2)",
+					strokeColor : "rgba(20,200,170,1)",
+					pointColor : "rgba(20,200,170,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(20,200,170,1)",
+					data: [28,48,40,66,51,32,100,86,45,74,62,100]
+				}
+			]
+
+		};
+		var radarChartData = {
+			labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+			datasets: [
+				{
+					label: "My First dataset",
+					fillColor: "rgba(220,220,220,0.2)",
+					strokeColor: "rgba(220,220,220,1)",
+					pointColor: "rgba(220,220,220,1)",
+					pointStrokeColor: "#fff",
+					pointHighlightFill: "#fff",
+					pointHighlightStroke: "rgba(220,220,220,1)",
+					data: [65,59,90,81,56,55,40]
+				},
+				{
+					label: "My Second dataset",
+					fillColor : "rgba(20,200,170,0.2)",
+					strokeColor : "rgba(20,200,170,1)",
+					pointColor : "rgba(20,200,170,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(20,200,170,1)",
+					data: [28,48,40,19,96,27,100]
+				}
+			]
+		};
+
+
+	window.onload = function(){
+		window.myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData, {
+			responsive: true
+		});
+		window.myRadar = new Chart(document.getElementById("canvas2").getContext("2d")).Radar(radarChartData, {
+				responsive: true
+			});
+	}
+	</script>
+</body>
+</html>
